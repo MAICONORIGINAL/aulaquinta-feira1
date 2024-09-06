@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h2>Favor preencher o formulario</h2>
+    <form action="#" method="post">
+        <label for="fnome">Nome:</label>
+        <input type="text" name="nome" /><br>
+        <p>Está certo disso?</p>
+        <input type="radio" id="certeza" name="opcao" value="sim">
+        <label for="fsim">Sim</label>
+        <input type="radio"  id="certeza" name="opcao"value="nao">
+        <label for="fnao">Não</label>
+        <br>
+        <hr>
+        <p>Escolha o seu tipo de musica:</p>
+
+        <input type="checkbox" name="musica1" id="musica1" value="rock">
+        <label for="musica1">Rock</label>
+        <br>
+        <input type="checkbox" name="musica2" id="musica2" value="gospel">
+        <label for="musica2">Gospel</label>
+        <br>
+        <input type="checkbox" name="musica3" id="musica3" value="pop-rock">
+        <label for="musica3">Pop-Rock</label>
+        <br>
+        <input type="submit" value="Enviar">
+
+<br>
+<hr>
+
+<label for="opcões"> voce concorda?</label>
+<select id="opções" nome="opcões"    size="2">
+<option value="sim">sim</option>
+<option value="nao">nao</option>>
+<option value="talves"><selected>talvez</option>
+    </select>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+   <br/>
+<br>
+<br>
+<label for="fopiao">deixe seu comentario:</label>
+<br>
+<textarea name="mensagem" rows="30" cols="70 "></textarea>
+
+<br>
+<hr>
+
+<label for="fsenha">digite a senha </label>
+<input type="password" name="senha" >
+    </form>
+ 
+</body>
+</html>
